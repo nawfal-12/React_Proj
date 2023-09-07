@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.form-add{
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-right: 40px;
+  border: 2px solid black;
+  border-radius: 6px;
+  background-color: gainsboro
+}
+.form-add label{
+  display: block;
+  font-weight: 16px;
+  margin-bottom: 5px;
+}
+.form-add input{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 3px solid rgb(98, 95, 226);
+  border-radius: 5px;
+}
+.form-add button{
+  width: 100%;
+  display: block;
+  background-color: rgb(53, 12, 255);
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+.form-add button:hover{
+  background-color: cadetblue;
+}
+.emp-table{
+  width: 100%;
+  border-collapse:collapse ;
+  background-color: bisque;
+}
+.emp-table th{
+  border: 3px solid black;
+  background-color: aquamarine;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+.emp-table td{
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  border: 3px solid black;
+}
+.emp-table tbody button{
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+.emp-table tbody button:hover{
+  background-color: white;
+  color: black;
+}
+.popup{
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Copy and Paste form-add and change add to update */
+.form-update{
+width: 300px;
+margin: 0 auto;
+padding: 20px;
+padding-right: 40px;
+border: 2px solid black;
+border-radius: 6px;
+background-color: gainsboro
+}
+.form-update label{
+display: block;
+font-weight: 16px;
+margin-bottom: 5px;
+}
+.form-update input{
+width: 100%;
+padding: 10px;
+margin-bottom: 15px;
+border: 3px solid rgb(98, 95, 226);
+border-radius: 5px;
+}
+.form-update button{
+width: 100%;
+display: block;
+background-color: rgb(53, 12, 255);
+color: white;
+padding: 10px;
+cursor: pointer;
+}
+.form-update button:hover{
+background-color: cadetblue;
+}
+.popup .popup-cancel{
+  width: 20%;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+}
